@@ -22,6 +22,12 @@ response2=requests.get(image_url)
 with open(image_filepath, "wb")as file:
     file.write(response2.content)
 
+#create front end of website
+
+st.title(title)
+st.image(image_filepath)
+st.write(explanation)
+
 
 
 
