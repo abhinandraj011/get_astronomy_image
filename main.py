@@ -3,7 +3,7 @@ import requests
 
 
 #prepare API URL and API key
-api_key="ko3O0izFoyeFbTqzUZLyqwiBxUyqpAliRiod5Bj7"
+api_key=" "
 url="https://api.nasa.gov/planetary/apod?" \
 f"api_key={api_key}"
 
